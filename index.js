@@ -4,7 +4,7 @@ import * as fs from 'node:fs';
 import {Command} from 'commander';
 const program = new Command();
 
-const question = [
+const question = [ 
   {
     type:'input',
     name:'title',
